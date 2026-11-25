@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">MyPortfolio</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button id="theme-toggle" class="theme-toggle" type="button">
+                ☀️ Light Mode
+            </button>
+        </nav>
+    </header>
+
+
+<!-- Home Section -->
+<section id="home" class="hero">
+
+    <div class="hero-content">
+        <p class="intro">HELLO, WORLD! 👋</p>
+
+        <h1>I'm <span>Thing Bao Qi</span></h1>
+
+        <h2 class="typing-text">
+            I'm a <span id="typing"></span>
+        </h2>
+
+        <p class="hero-description">
+            I am passionate about technology, coding and design.
+            I enjoy creating websites and exploring new ideas
+            through programming.
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#projects" class="btn">View My Projects</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+        </div>
+    </div>
+
+    <div class="hero-image">
+        <div class="profile-card">
+            <div class="avatar">
+                <img src="images/profile.png" alt="My Profile Photo">
+            </div>
+
+            <h3>Thing Bao Qi</h3>
+            <p>Future Developer</p>
+
+            <div class="profile-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+            </div>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                Learning & Building
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            Hello! I am a student who is interested in technology,
+            programming and creating websites. I enjoy learning new
+            skills and building creative projects.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section">
+    <h2 class="section-title">My Skills</h2>
+    <p class="section-subtitle">
+        Technologies I'm learning and exploring.
+    </p>
+
+    <div class="skills-container">
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>HTML</span>
+                <span>80%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress html"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>CSS</span>
+                <span>65%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress css"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>JavaScript</span>
+                <span>40%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress javascript"></div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <div class="skill-info">
+                <span>Python</span>
+                <span>30%</span>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-progress python"></div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Education Section -->
+<section id="education" class="section">
+    <h2 class="section-title">Education & Experience</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2024 - Present</span>
+                <h3>Secondary School</h3>
+                <p>Currently studying and building my knowledge
+                in technology, science and programming.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">2025 - Present</span>
+                <h3>Self-Learning Programming</h3>
+                <p>Learning HTML, CSS and JavaScript while
+                creating personal projects.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+                <span class="timeline-date">Future</span>
+                <h3>Future Developer</h3>
+                <p>Planning to further my studies and explore
+                cybersecurity, software development and technology.</p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="section">
+    <h2>My Projects</h2>
+    <p class="section-subtitle">
+        Here are some projects I have been working on.
+    </p>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+            <div class="project-icon">🌐</div>
+            <h3>Personal Portfolio</h3>
+            <p>
+                A personal website built to showcase my skills,
+                projects and journey in programming.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="#" target="_blank">Live Demo ↗</a>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <div class="project-icon">📝</div>
+            <h3>To-Do List</h3>
+            <p>
+                A simple task manager that helps users organise
+                daily activities and track tasks.
+            </p>
+
+            <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="#" target="_blank">Live Demo ↗</a>
+            </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card">
+            <div class="project-icon">🎮</div>
+            <h3>Mini Game</h3>
+            <p>
+                An interactive mini game created to explore
+                JavaScript logic and game development.
+            </p>
+
+            <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+            <div class="project-links">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+                <a href="#" target="_blank">Live Demo ↗</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<!-- Contact Section -->
+<section id="contact" class="section contact-section">
+    <h2>Let's Connect</h2>
+
+    <p class="section-subtitle">
+        Have a question or want to work together? Send me a message!
+    </p>
+
+    <div class="contact-container">
+        <form id="contact-form">
+
+            <label for="contact-name">Your Name</label>
+            <input
+                type="text"
+                id="contact-name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="contact-email">Your Email</label>
+            <input
+                type="email"
+                id="contact-email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="contact-message">Your Message</label>
+            <textarea
+                id="contact-message"
+                name="message"
+                rows="6"
+                placeholder="Write your message..."
+                required
+            ></textarea>
+
+            <button type="submit" class="submit-btn">
+                Send Message ✉
+            </button>
+
+            <p id="form-status"></p>
+
+        </form>
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Your Name. All rights reserved.</p>
+    </footer>
+    
+    <button id="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
